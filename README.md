@@ -30,3 +30,36 @@ Prepare data for machine learning models.
   <img src="https://github.com/Basmala-ElKady/BigMart-Sales-Data-Preprocessing-PCA-Analysis/blob/main/Project%201/pca_plots/pca_3d_projection.png" alt="Graph 1" width="400" style="margin-right: 10px;"/>
 </p>
 
+---
+### EDA Boxplots
+**Outlier detection and distribution analysis for key numerical features:**
+
+<p align="center">
+  <img src="https://github.com/Basmala-ElKady/BigMart-Sales-Data-Preprocessing-PCA-Analysis/blob/main/Project%201/plots/boxplot_Item_MRP.png" alt="Boxplot Item MRP" width="300" style="margin-right: 10px;"/>
+  <img src="https://github.com/Basmala-ElKady/BigMart-Sales-Data-Preprocessing-PCA-Analysis/blob/main/Project%201/plots/boxplot_Item_Outlet_Sales.png" alt="Boxplot Item Outlet Sales" width="300" style="margin-right: 10px;"/>
+  <img src="https://github.com/Basmala-ElKady/BigMart-Sales-Data-Preprocessing-PCA-Analysis/blob/main/Project%201/plots/boxplot_Item_Visibility.png" alt="Boxplot Item Visibility" width="300"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Basmala-ElKady/BigMart-Sales-Data-Preprocessing-PCA-Analysis/blob/main/Project%201/plots/boxplot_Item_Weight.png" alt="Boxplot Item Weight" width="300" style="margin-right: 10px;"/>
+  <img src="https://github.com/Basmala-ElKady/BigMart-Sales-Data-Preprocessing-PCA-Analysis/blob/main/Project%201/plots/boxplot_Outlet_Establishment_Year.png" alt="Boxplot Outlet Establishment Year" width="300"/>
+</p>
+
+---
+### Setup & Testing
+1. Use Jupyter Notebook or VS Code to execute the notebook.
+2. Load the dataset via `pd.read_csv('train2.csv')`.
+3. Verify results: Inspect cleaned data with `df.info()`, and PCA performance with `pca.explained_variance_ratio_`.
+
+For the full notebook: [View Jupyter](data_preprocessing_pca_project.ipynb)
+
+---
+
+## Supervisor
+Dr. Mahmoud Gamal
+
+## Authors
+- [Menna Hossny](https://github.com/Mennatullah122)
+- [Hoda Mahmoud](https://github.com/HodaMahmoud-2005)
+- [Jana Hegazy](https://github.com/janahegazy)
+- [Hany Ziad](https://github.com/hanyzead123)
