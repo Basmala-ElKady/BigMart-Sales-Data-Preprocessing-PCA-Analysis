@@ -46,6 +46,17 @@ Prepare data for machine learning models.
 </p>
 
 ---
+### Data Cleaning Process
+**Overview of cleaning steps: Impute missing weights by item type median, cap outliers , standardize categories. Below is an example before/after for Item_MRP; check other similar plots in `/Project 1/plots_before_after/`.**
+
+<p align="center">
+  <img src="https://github.com/Basmala-ElKady/BigMart-Sales-Data-Preprocessing-PCA-Analysis/blob/main/Project%201/plots_before_after/Item_MRP_before_after.png" alt="Pre-Cleaning: Item Weight Outliers" width="900" style="margin-right: 10px;"/>
+  
+</p>
+
+*(Run the notebook to generate before/after comparisons; cleaned data exported as 'cleaned_data.csv'.)*
+
+---
 ### Setup & Testing
 1. Use Jupyter Notebook or VS Code to execute the notebook.
 2. Load the dataset via `pd.read_csv('train2.csv')`.
