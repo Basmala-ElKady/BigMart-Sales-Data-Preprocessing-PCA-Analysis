@@ -49,7 +49,7 @@ Prepare data for machine learning models.
 ### Setup & Testing
 1. Use Jupyter Notebook or VS Code to execute the notebook.
 2. Load the dataset via `pd.read_csv('train2.csv')`.
-3. Verify results: Inspect cleaned data with `df.info()`, and PCA performance with `pca.explained_variance_ratio_`.
+3. Verify results: Inspect cleaned data with `df.info()`.
 
 For the full notebook: [View Jupyter](https://github.com/Basmala-ElKady/BigMart-Sales-Data-Preprocessing-PCA-Analysis/blob/main/Project%201/data_preprocessing_pca_project.ipynb)
 
