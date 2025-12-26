@@ -51,7 +51,7 @@ Prepare data for machine learning models.
 2. Load the dataset via `pd.read_csv('train2.csv')`.
 3. Verify results: Inspect cleaned data with `df.info()`, and PCA performance with `pca.explained_variance_ratio_`.
 
-For the full notebook: [View Jupyter](data_preprocessing_pca_project.ipynb)
+For the full notebook: [View Jupyter](https://github.com/Basmala-ElKady/BigMart-Sales-Data-Preprocessing-PCA-Analysis/blob/main/Project%201/data_preprocessing_pca_project.ipynb)
 
 ---
 
@@ -59,6 +59,7 @@ For the full notebook: [View Jupyter](data_preprocessing_pca_project.ipynb)
 Dr. Mahmoud Gamal
 
 ## Authors
+- [Basmala ElKady](https://github.com/Basmala-ElKady)
 - [Menna Hossny](https://github.com/Mennatullah122)
 - [Hoda Mahmoud](https://github.com/HodaMahmoud-2005)
 - [Jana Hegazy](https://github.com/janahegazy)
